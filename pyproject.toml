@@ -9,6 +9,11 @@ readme = "README.md"
 python = "^3.13"
 
 
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "http://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
